@@ -1,0 +1,153 @@
+.maincomponent {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: paleturquoise;
+    height: 700px;
+}
+
+.topblock {
+    color: red;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.bottomblock {
+    margin-top: 2rem;
+}
+
+@media (max-width : 468px) {
+    .topblock {
+        color: blueviolet;
+        font-weight: 400;
+        font-size: large;
+    }
+
+    .bottomblock {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+    }
+
+    .maincomponent {
+        background-color:yellowgreen;
+        height: 500px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+}
+
+
+@media (max-width : 768px) {
+
+    .topblock {
+        color: orangered;
+        font-weight: 500;
+        font-size: x-large;
+
+    }
+
+    .bottomblock {
+        margin-top: 2rem;
+    }
+
+    .maincomponent {
+        background-color:lightgreen;
+        height: 600px;
+    }
+
+    .btn {
+        margin: 2rem;
+    }
+
+    .inputbox {
+        height: 30px;
+        width: 200px;
+        font-size: large;
+    }
+
+    .button {
+        height: 30px;
+        width: 100px;
+        font-size: large;
+    }
+
+}
+
+
+@media (min-width : 769px) and (max-width:1023px) {
+    .maincomponent {
+        background-color: green;
+        height: 650px;
+    }
+
+    .bottomblock {
+        box-sizing: border-box;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn {
+        margin-left: 2rem;
+        height: 35px;
+    }
+
+    .inputbox {
+        height: 35px;
+        width: 300px;
+        font-size: large;
+    }
+
+    .button {
+        height: 35px;
+        width: 100px;
+        font-size: large;
+    }
+}
+
+
+@media (min-width : 1024px) {
+
+    .topblock {
+        color: orange;
+        font-weight: 1000;
+        font-size: xx-large;
+
+    }
+
+    .bottomblock {
+        box-sizing: border-box;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .maincomponent {
+        background-color:beige;
+        height: 700px;
+    }
+
+   
+    .inputbox {
+        height: 40px;
+        width: 300px;
+        font-size: large;
+    }
+
+    .button {
+        height: 40px;
+        width: 120px;
+        font-size: large;
+        margin-left: 1rem;
+    }
+
+}

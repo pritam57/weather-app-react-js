@@ -1,0 +1,109 @@
+.main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.common {
+    margin-top: 20px;
+}
+
+.heading {
+    font-weight: 900;
+    color: brown;
+    margin-bottom: 5%;
+}
+
+.middle {
+    text-align: center;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.btnn {
+    height: 35px;
+    width: 200;
+    font-size: larger;
+    margin-top: 10%;
+}
+
+.btnn:hover {
+    background-color: aquamarine;
+}
+
+@media (max-width : 468px) {
+   
+    .common {
+        margin-top: 10%;
+    }
+    
+    .heading {
+        font-weight: 400;
+        color: brown;
+        margin-bottom: 5%;
+    }
+    
+    .middle {
+        margin: 1rem;
+    }
+    
+}
+
+
+@media (max-width : 768px) {
+
+    .common {
+        margin-top: 10%;
+    }
+    
+    .heading {
+        font-weight: 600;
+        color: brown;
+        margin-bottom: 10%;
+    }
+    
+    .middle {
+        margin: 2rem;
+    }
+
+}
+
+
+@media (min-width : 769px) and (max-width:1023px) {
+    .common {
+        margin-top: 10%;
+    }
+    
+    .heading {
+        font-weight: 700;
+        color: brown;
+        margin-bottom: 10%;
+    }
+    
+    .middle {
+        margin: 2rem;
+    }
+}
+
+
+@media (min-width : 1024px) {
+    .common {
+        margin-top: 10%;
+    }
+    
+    .heading {
+        font-weight: 900;
+        color: brown;
+        margin-bottom: 10%;
+    }
+    
+    .middle {
+        margin: 2rem;
+    }
+}

@@ -1,0 +1,5 @@
+
+export const PRODUCT_LIST ="PRODUCT_LIST";
+export const SET_PRODUCT_LIST="SET_PRODUCT_LIST";
+export const GET_COUNTRY_NAME="GET_COUNTRY_NAME";
+
